@@ -1,0 +1,36 @@
+:root {
+  // COLORS
+  --cl-white: #fff;
+  --cl-black: #000;
+
+  // LAYOUT
+  --horizontal-page-padding: 1rem;
+  --max-width: 1024px;
+
+  @screen xs {
+    --horizontal-page-padding: 1.5rem;
+  }
+
+  @screen md {
+    --horizontal-page-padding: 2rem;
+  }
+
+  @screen lg {
+    --horizontal-page-padding: 4rem;
+  }
+
+  @screen xl {
+    --max-width: 1280px;
+  }
+
+  @screen 2xl {
+    --max-width: 1400px;
+  }
+
+  // COMPONENT SPECIFIC
+  --header-height: 60px;
+
+  @screen lg {
+    --header-height: 74px;
+  }
+}

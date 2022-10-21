@@ -1,0 +1,15 @@
+.width-container {
+  padding-right: var(--horizontal-page-padding);
+  padding-left: var(--horizontal-page-padding);
+  max-width: var(--max-width);
+  margin: 0 auto;
+  width: 100%;
+}
+
+.fill-min-height-minus-header {
+  min-height: calc(100vh - var(--header-height));
+}
+
+.fill-height-minus-header {
+  height: calc(100vh - var(--header-height));
+}

@@ -1,0 +1,13 @@
+@tailwind components;
+
+button {
+  &:not(:disabled) {
+    cursor: pointer;
+  }
+}
+
+@layer components {
+  .big-btn {
+    @apply px-4 py-2.5 rounded-full text-center flex items-center justify-center font-medium drop-shadow-sm hover:drop-shadow-lg text-sm;
+  }
+}
